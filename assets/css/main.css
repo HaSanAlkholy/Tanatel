@@ -558,6 +558,7 @@ nav .nav-bottom .nava .nava-social {
   }
   nav .nav-bottom .nava .nava-content .nava-head .nava-lang .drop i {
     margin-right: 5px;
+    margin-top: -2px;
   }
   nav .nav-bottom .nava .nava-content .nava-head .nava-lang ul {
     display: none;
