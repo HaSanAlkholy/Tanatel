@@ -65,10 +65,31 @@
 
 nav {
     .container {
-        @media (min-width: 1200px) {
-            width: 1920px;
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
         }
-    }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1920px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
     .nav-top {
         background-color: #f0f0f0;
         color: rgba(97, 97, 97, 255);
@@ -421,10 +442,31 @@ nav {
 
 header {
     .container {
-        @media (min-width: 1200px) {
-            width: 1920px;
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
         }
-    }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1920px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
     .swiper-container {
         width: 100%;
         height: auto;
@@ -512,11 +554,33 @@ header {
 }
 
 #about {
+
     .container {
-        @media (min-width: 1200px) {
-            width: 1920px;
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
         }
-    }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1920px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
 
     .about-top {
         padding: 70px 0;
@@ -664,6 +728,33 @@ header {
     text-align: center;
     color: $color2;
 
+    .container {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1400px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
+
     @media (max-width: 992px) {
         padding: 50px 0;
     }
@@ -769,6 +860,33 @@ header {
     background-color: #f7f7f7;
     color: rgba(97, 97, 97, 255);
 
+    .container {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1400px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
+
     @media (max-width: 992px) {
         padding-top: 30px;
         padding-bottom: 45px;
@@ -864,6 +982,33 @@ header {
     text-align: center;
     padding: 95px 0;
 
+    .container {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1400px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
+
     .clients-head {
         h2 {
             font-size: 18px;
@@ -948,6 +1093,35 @@ header {
 }
 
 #join {
+
+    .container {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1400px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
+
+
     padding-top: 88px;
     padding-bottom: 79px;
     text-align: center;
@@ -1012,6 +1186,34 @@ header {
 }
 
 #news {
+    .container {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1400px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
+
+
     padding-top: 90px;
     padding-bottom: 110px;
     background-color: #f7f7f7;
@@ -1134,6 +1336,33 @@ footer {
     background-color: #3f3f3f;
     color: white;
     padding-bottom: 45px;
+
+    .container {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 100%;
+      
+        @media (min-width: 768px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 992px) {
+          width: 100%;
+        }
+      
+        @media (min-width: 1200px) {
+          width: 1400px;
+        }
+      }
+      
+      .row {
+        margin: 0;
+      
+        & > div {
+          padding: 0;
+        }
+      }
 
     .footer-top {
         padding: 60px 0;
