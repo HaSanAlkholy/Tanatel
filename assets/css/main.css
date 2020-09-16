@@ -1469,6 +1469,8 @@ header .swiper-container .swiper-slide:hover img {
 #online .online-content .online-img .image img {
   max-width: 85%;
   color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 992px) {
@@ -1476,6 +1478,11 @@ header .swiper-container .swiper-slide:hover img {
     width: 100%;
     margin: 15px 0;
   }
+}
+
+#online .online-content .online-img .image:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #clients {
